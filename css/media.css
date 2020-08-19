@@ -1,0 +1,235 @@
+@media (max-width: 380px) {
+    .about .banner-left img {
+        width: 300px;
+        height: 300px;
+    }
+    .about .banner-right h1 {
+        font-size: 41px;
+    }
+    .about .banner-right p {
+        font-size: 27px;
+    }
+    .education .banner-right {
+        line-height: 0;
+        height: 300px;
+    }
+    .education .banner-right img {
+        width: 300px;
+        height: 300px;
+    }
+    .education .banner-left h1 {
+        font-size: 39px;
+    }
+    .education .banner-left p {
+        font-size: 27px;
+    }
+    .skill-name h1 {
+        font-size: 3.5rem !important;
+    }
+    .my-cards {
+        padding-left: 103px;
+    }
+    .card {
+        width: 200px !important;
+    }
+    .service h1 {
+        font-size: 33px;
+    }
+    .services1 {
+        margin-bottom: 25px;
+    }
+    .port-img {
+        padding-left: 95px;
+    }
+    .foot-col1 {
+        text-align: center;
+        margin-bottom: 37px;
+    }
+    .foot-col2 {
+        text-align: center;
+        margin-bottom: 37px;
+    }
+    .foot-col3 {
+        text-align: center;
+    }
+    .my-cont {
+        padding-left: 0;
+    }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 380px) {
+    .about .banner-left img {
+        width: 300px;
+        height: 300px;
+    }
+    .about .banner-right h1 {
+        font-size: 41px;
+    }
+    .about .banner-right p {
+        font-size: 27px;
+    }
+    .education .banner-right {
+        line-height: 0;
+    }
+    .education .banner-right img {
+        width: 300px;
+        height: 300px;
+    }
+    .education .banner-left h1 {
+        font-size: 39px;
+    }
+    .education .banner-left p {
+        font-size: 27px;
+    }
+    .skill-name h1 {
+        font-size: 3.5rem !important;
+    }
+    .my-cards {
+        padding-left: 103px;
+    }
+    .card {
+        width: 200px !important;
+    }
+    .service h1 {
+        font-size: 33px;
+    }
+    .services1 {
+        margin-bottom: 25px;
+    }
+    .port-img {
+        padding-left: 95px;
+    }
+    .foot-col1 {
+        text-align: center;
+        margin-bottom: 37px;
+    }
+    .foot-col2 {
+        text-align: center;
+        margin-bottom: 37px;
+    }
+    .foot-col3 {
+        text-align: center;
+    }
+    .my-cont {
+        padding-left: 0;
+    }
+    .ajax-form h4 {
+        margin-bottom: 27px;
+    }
+    .topBtn {
+        right: 5px;
+    }
+}
+
+@media (min-width: 576px) {
+    .skill-name h1 {
+        font-size: 3.5rem !important;
+    }
+    .my-cards {
+        padding: 0;
+        padding-left: 128px;
+    }
+    .services1 {
+        margin-bottom: 25px;
+    }
+    .port-img {
+        padding: 0;
+        padding-left: 128px;
+    }
+    .foot-col1 {
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .foot-col2 {
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .my-cont {
+        padding-left: 0;
+    }
+    .ajax-form h4 {
+        margin-bottom: 17px;
+    }
+}
+/* Medium devices (tablets, 768px and up*/
+@media (min-width: 768px) {
+    .about .banner-left img {
+        width: 350px;
+        height: 350px;
+    }
+    .about .banner-right h1 {
+        font-size: 41px;
+    }
+    .about .banner-right p {
+        font-size: 27px;
+    }
+    .education .banner-right img {
+        width: 350px;
+        height: 350px;
+    }
+    .education .banner-left h1 {
+        font-size: 39px;
+    }
+    .education .banner-left p {
+        font-size: 27px;
+    }
+    .skill-name h1 {
+        font-size: 4.5rem !important;
+    }
+    .my-cards {
+        padding-left: 144px;
+    }
+    .service h1 {
+        font-size: 3.5rem;
+    }
+    .port-img {
+        padding: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .about .banner-left img {
+        width: 400px;
+        height: 400px;
+    }
+    .about .banner-right h1 {
+        font-size: 62px;
+    }
+    .about .banner-right p {
+        font-size: 34px;
+    }
+    .education .banner-right img {
+        width: 400px;
+    }
+    .education .banner-left h1 {
+        font-size: 60px;
+    }
+    .education .banner-left p {
+        font-size: 35px;
+    }
+    .skill-name h1 {
+        font-size: 4.5rem !important;
+    }
+    .my-cards {
+        padding-left: 140px;
+    }
+    .port-img {
+        padding-left: 120px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .my-cards {
+        padding-left: 453px;
+    }
+    .services2 p {
+        padding: 38px;
+        margin-top: -30px;
+
+    }
+    .port-img {
+        padding-left: 296px;
+    }
+}

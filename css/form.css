@@ -1,0 +1,43 @@
+form input[type=text], input[type=email] {
+    width: 271px;
+    border: none;
+    border-bottom: 1px solid silver;
+    padding: 5px;
+    background: #111111 !important;
+    color: #C3C3C3;
+    outline: 0;
+}
+form .gend {
+    font-size: 19px;
+    color: #C3C3C3;
+}
+form label {
+    font-size: 17px;
+    color: #C3C3C3;
+    cursor: pointer;
+    padding-left: 15px;
+}
+form button {
+    width: 139px;
+    border-radius: 3px;
+    color: #C3C3C3;
+    border: none;
+    height: 31px;
+    background: #626262;
+}
+form button:hover {
+    color: #626262;
+    background: #C3C3C3;
+}
+form h4 {
+    color: #666666;
+}
+.color_false {
+    color: red;
+}
+.color_p2 {
+    color: #C3C3C3;
+}
+.color_p3 {
+    color: green;
+}

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Persional Website</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="img/images.jpg">
+    <!-- my css -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/hc-offcanvas-nav.css">
+    <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/filters.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/topbtn.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/loading.css">
+</head>
+
+<body>
+
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+<header id="header">
+    <div class="overlay">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-9">
+                    <a class="toggle"><span></span></a>
+                    <nav id="main-nav">
+                        <ul>
+                            <li><a class="nav-link scroll" data-scroll-target="#educat" data-scroll-effect="linear">Education</a>
+                            </li>
+                            <li><a class="nav-link scroll" data-scroll-target="#skill" data-scroll-effect="linear">Skills</a>
+                            </li>
+                            <li><a class="nav-link scroll" data-scroll-target="#portlink" data-scroll-effect="linear">Portfolio</a>
+                            </li>
+                            <li><a class="nav-link scroll" data-scroll-target="#servic" data-scroll-effect="linear">Services</a>
+                            </li>
+                            <li><a class="nav-link scroll" data-scroll-target="#feedback" data-scroll-effect="linear">Feedback</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-md-4 page-name">My Persional Websait</div>
+            </div>
+        </div>
+    </div>
+<!--    https://youtu.be/l-XkRJnHpTI-->
+    <div id="myvideo" class="player"
+         data-property="{videoURL:'https://youtu.be/OZCiUkYDWK8',coverImage:'', containment:'#header',autoPlay:true, mute:true, startAt:0, opacity:1, loop:true}"></div>
+</header>
+<section>
+    <div class="container-fluid">
+        <div class="about row">
+            <div class="wow fadeInLeft banner-left col-lg-6 col-md-6 col-sm-12">
+                <img src="img/img.jpg" alt="My Picture">
+            </div>
+            <div class="wow fadeInRight banner-right col-lg-6 col-md-6 col-sm-12">
+                <h1 id="ab-me">About Me</h1>
+                <p>Hello, I'm Khachik Mkrtchyan</p>
+                <p>I would like to join your team as a web developer and get professional experience</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="educat">
+    <div class="container-fluid">
+        <div class="education row">
+            <div class="wow fadeInLeft banner-left col-lg-6 col-md-6 col-sm-12">
+                <h1>Education</h1>
+                <p>I am a Web Developer student at BASIC-IT Center.</p>
+            </div>
+            <div class="wow fadeInRight banner-right col-lg-6 col-md-6 col-sm-12">
+                <a href="https://www.basic.am/" target="_blank"><img src="img/basic.png" alt="basic"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="author-archive" id="skill">
+    <div class="container">
+        <h1>My Skills</h1>
+        <input type="radio" id="Backend" name="categories" value="Backend" checked>
+        <input type="radio" id="Front and" name="categories" value="Front and" checked>
+
+
+        <ol class="filters">
+            <li>
+                <label for="Backend"><h3>Backend</h3></label>
+            </li>
+
+            <li>
+                <label for="Front and"><h3>Front and</h3></label>
+            </li>
+
+        </ol>
+
+        <ol class="posts">
+            <li class="post wow fadeInLeft" data-category="CSS">
+                <article>
+                    <figure>
+                        <a href="https://ru.wikipedia.org/wiki/HTML5" target="_blank">
+                            <img src="img/html5.png" alt="">
+                        </a>
+                    </figure>
+                </article>
+            </li>
+            <li class="post wow tada" data-category="CSS">
+                <article>
+                    <figure>
+                        <a href="https://ru.wikipedia.org/wiki/CSS" target="_blank">
+                            <img src="img/css3.jpg" alt="">
+                        </a>
+                    </figure>
+                </article>
+            </li>
+            <li class="post wow tada" data-category="JavaScript">
+                <article>
+                    <figure>
+                        <a href="https://ru.wikipedia.org/wiki/JavaScript" target="_blank">
+                            <img src="img/java.jpg" alt="">
+                        </a>
+                    </figure>
+                </article>
+            </li>
+            <li class="post wow fadeInRight" data-category="JavaScript">
+                <article>
+                    <figure>
+                        <a href="https://ru.wikipedia.org/wiki/JQuery" target="_blank">
+                            <img src="img/jquery.jpg" alt="">
+                        </a>
+                    </figure>
+                </article>
+            </li>
+            <li class="post wow fadeInLeft" data-category="JavaScript">
+                <article>
+                    <figure>
+                        <a href="https://ru.wikipedia.org/wiki/AJAX" target="_blank">
+                            <img src="img/ajax.jpg" alt="">
+                        </a>
+                    </figure>
+                </article>
+            </li>
+            <li class="post wow fadeInRight" data-category="jQuery">
+                <article>
+                    <figure>
+                        <a href="https://ru.wikipedia.org/wiki/Bootstrap_(%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA)"
+                           target="_blank">
+                            <img src="img/boot.jpg" alt="">
+                        </a>
+                    </figure>
+                </article>
+            </li>
+            <li class="post wow fadeInLeft" data-category="MySQL">
+                <article>
+                    <figure>
+                        <a href="https://ru.wikipedia.org/wiki/MySQL" target="_blank">
+                            <img src="img/mysql.png" alt="SQL">
+                        </a>
+                    </figure>
+                </article>
+            </li>
+        </ol>
+    </div>
+</section>
+<section id="servic">
+    <div class="container">
+        <div class="row">
+            <div class="service col-lg-12">
+                <h1>Offered Services</h1>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 91px">
+            <div class="services1 wow fadeInLeft col-lg-6 col-md-6">
+                <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD"
+                   target="_blank">
+                    <span><img src="img/web-design.png"></span>
+                    <h1>Web Design</h1>
+                    <p>I design the outlook of sites</p>
+                </a>
+            </div>
+            <div class="services2 wow fadeInRight col-lg-6 col-md-6">
+                <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5"
+                   target="_blank">
+                    <span><img src="img/programming.png"></span>
+                    <h1>Web Developer</h1>
+                    <p>I develop websites for different fields</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="author-archive" id="portlink">
+    <div class="container">
+        <div class="port col-lg-12">
+            <h1>Portfolio</h1>
+        </div>
+        <ol class="posts">
+            <li class="post wow fadeInLeft" data-category="CSS">
+                <article>
+                    <figure>
+                        <img src="http://placehold.it/250x250" alt="">
+                    </figure>
+                </article>
+            </li>
+            <li class="post wow tada" data-category="CSS">
+                <article>
+                    <figure>
+                        <img src="http://placehold.it/250x250" alt="">
+                    </figure>
+                </article>
+            </li>
+            <li class="post wow tada" data-category="JavaScript">
+                <article>
+                    <figure>
+                        <img src="http://placehold.it/250x250" alt="">
+                    </figure>
+                </article>
+            </li>
+            <li class="post wow fadeInRight" data-category="JavaScript">
+                <article>
+                    <figure>
+                        <img src="http://placehold.it/250x250" alt="">
+                    </figure>
+                </article>
+            </li>
+        </ol>
+    </div>
+</section>
+<footer id="feedback">
+    <div class="container">
+        <div class="row">
+            <div class="foot-col foot-col1 col-lg-5 col-md-6 col-sm-6">
+                <ul>
+                    <h4>My Persional Websait</h4>
+                    <li><a class="scroll" data-scroll-target="#ab-me" data-scroll-effect="linear">About Me</a></li>
+                    <li><a class="scroll" data-scroll-target="#educat" data-scroll-effect="linear">Education</a></li>
+                    <li><a class="scroll" data-scroll-target="#skill" data-scroll-effect="linear">Skills</a></li>
+                    <li><a class="scroll" data-scroll-target="#portlink" data-scroll-effect="linear">Portfolio</a></li>
+                    <li><a class="scroll" data-scroll-target="#servic" data-scroll-effect="linear">Services</a></li>
+                </ul>
+            </div>
+            <div class="foot-col foot-col2 col-lg-5 col-md-6 col-sm-6">
+                <form class="ajax-form">
+                    <h4>FeedBack</h4>
+                    <p><input type="text" name="name" placeholder="Khachik "></p>
+                    <p><input type="email" name="email" placeholder="555mkrt555@mail.ru " title="For example: mail@domain.com"
+                              pattern="^\S+@\S+\.\S+$"></p>
+                    <p><input type="text" name="num" placeholder="+37494881195 "></p>
+
+                </form>
+            </div>
+            <div class="foot-col foot-col3 col-lg-2 col-md-6 col-sm-6">
+                <h1>Follow Me</h1>
+                <p>Let Us Be Friend</p>
+                <div class="my-cont">
+                    <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<a class="scroll topBtn" data-scroll-target="#header" data-scroll-effect="linear"><i class="fas fa-chevron-up"></i></a>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script src="js/jquery.maskedinput.js"></script>
+<script src="js/hc-offcanvas-nav.js"></script>
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script src="js/main.js"></script>
+<!-- my js-->
+<!--    <script src="js/index.js"></script>-->
+<script src="js/animat.js"></script>
+<script src="js/form.js"></script>
+<script src="js/topbtn.js"></script>
+<script src="js/table.js"></script>
+<script src="js/loading.js"></script>
+<script>
+    new WOW().init();
+
+</script>
+</body>
+
+</html>

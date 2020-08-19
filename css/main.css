@@ -1,0 +1,123 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px/1.6 Tahoma, sans-serif;
+}
+
+
+
+/* Rules */
+
+/* Main */
+header#header {
+    margin-bottom: 30px;
+    height: 100vh;
+}
+.overlay {
+    position: relative;
+    width: 100%;
+    background: 0, 0, 0, 0.7;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+header#header span {
+    background: white;
+}
+header#header span::before {
+    background: white;
+}
+header#header span::after {
+    background: white;
+}
+#main-nav ul li {
+    list-style: none;
+    float: left;
+    font-size: 20px;
+    padding-left: 55px;
+    line-height: 27px;
+    font-family: 'Cute Font', cursive;
+    transition: transform .3s;
+}
+
+#main-nav ul li:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+#main-nav ul li a {
+    color: #9A9DA0;
+    text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+    color: silver;
+}
+
+.page-name {
+    text-align: center;
+    font-size: 27px;
+    line-height: 67px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Breakpoints */
+@media (min-width: 50px) {
+    .page-name {
+        font-size: 20px;
+    }
+}
+@media (min-width: 576px) {
+    .page-name {
+        font-size: 27px;
+    }
+}
+@media (max-width: 768px) {
+    .page-name {
+        text-align: right;
+    }
+}
+@media (min-width: 768px) {
+    .page-name {
+        font-size: 22px;
+    }
+    #main-nav ul li {
+        padding-left: 0;
+        font-size: 19px;
+    }
+}
+@media (min-width: 992px) {
+    #main-nav ul li {
+        padding-left: 17px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page-name {
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .container-fluid {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container-fulid {
+        max-width: 1366px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .container-fluid {
+        max-width: 1600px;
+    }
+}
